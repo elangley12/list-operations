@@ -13,7 +13,6 @@ def head(input_list):
     """
 
     list_head = input_list[0]
-    print(list_head)
 
     return list_head
     
@@ -29,8 +28,10 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
+    
+    list_tail = input_list[1:]
 
-    return []
+    return list_tail
 
 
 def last(input_list):
