@@ -12,7 +12,12 @@ def head(input_list):
       'Jan'
     """
 
-    return []
+    list_head = input_list[0]
+    print(list_head)
+
+    return list_head
+    
+
 
 
 def tail(input_list):
